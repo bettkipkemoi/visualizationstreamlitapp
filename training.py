@@ -18,5 +18,5 @@ st.text('Lets go for the bar chart!')
 
 #chart 2
 st.title('Age Distribution Counts')
-Age2 = dataset1['Age'].value_counts('percentage')
+Age2 = dataset1['Age'].value_counts()
 st.bar_chart(Age2)
