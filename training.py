@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 
 #loading dataset
-dataset1 = pd.read_csv("C:/Users/Bett/Downloads/MP2_data_option1.csv")
+dataset1 = pd.read_csv("MP2_data_option1.csv")
 dataset1.head(10)
 
 #title
